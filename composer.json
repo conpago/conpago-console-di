@@ -1,0 +1,44 @@
+{
+	"name": "saigon/conpago-console-di",
+	"description": "Conpago.Console.DI",
+	"version": "0.0.1-alpha",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Bartosz Gołek",
+			"email": "bartosz.golek@gmail.com",
+			"homepage": "http://bartosz.golek.biz"
+		}
+	],
+	"repositories": [
+		{
+			"type": "hg",
+			"url": "http://scm.golek.biz/scm/hg/Conpago.DI"
+		},
+		{
+			"type": "hg",
+			"url": "http://scm.golek.biz/scm/hg/Conpago.Console"
+		},
+		{
+			"type": "hg",
+			"url": "http://scm.golek.biz/scm/hg/Conpago.Console.Contract"
+		}
+	],
+	"require": {
+		"saigon/conpago-di": "dev-master",
+		"saigon/conpago-console-contract": "dev-master",
+		"saigon/conpago-console": "dev-master"
+	},
+	"require-dev": {
+		"pdepend/pdepend": "*",
+		"phpmd/phpmd": "*",
+		"squizlabs/php_codesniffer": "*",
+		"sebastian/phpcpd": "*",
+		"phpunit/phpunit": "4.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Saigon\\Conpago\\Console\\": "src/"
+		}
+	}
+}
