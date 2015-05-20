@@ -13,7 +13,8 @@
 	"require": {
 		"saigon/conpago-di": "dev-default",
 		"saigon/conpago-console-contract": "dev-default",
-		"saigon/conpago-console": "dev-default"
+		"saigon/conpago-console": "dev-default",
+		"saigon/conpago-contract": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
