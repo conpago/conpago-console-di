@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="Conpago.Console.DI" default="build" basedir=".">
-	<description>Conpago.Console.DI</description>
+	<description>Conpago console commandline framework dependency injection module.</description>
 
 	<property name="src" location="src"/>
 	<property name="lib" location="lib"/>

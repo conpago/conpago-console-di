@@ -1,27 +1,13 @@
 {
 	"name": "saigon/conpago-console-di",
-	"description": "Conpago.Console.DI",
-	"version": "0.0.1-alpha",
+	"description": "Conpago console commandline framework dependency injection module.",
 	"type": "library",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Bartosz Gołek",
 			"email": "bartosz.golek@gmail.com",
 			"homepage": "http://bartosz.golek.biz"
-		}
-	],
-	"repositories": [
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.DI"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Console"
-		},
-		{
-			"type": "hg",
-			"url": "http://scm.golek.biz/scm/hg/Conpago.Console.Contract"
 		}
 	],
 	"require": {
