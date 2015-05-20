@@ -11,9 +11,9 @@
 		}
 	],
 	"require": {
-		"saigon/conpago-di": "dev-master",
-		"saigon/conpago-console-contract": "dev-master",
-		"saigon/conpago-console": "dev-master"
+		"saigon/conpago-di": "dev-default",
+		"saigon/conpago-console-contract": "dev-default",
+		"saigon/conpago-console": "dev-default"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",
